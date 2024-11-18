@@ -1,14 +1,31 @@
-h1, h2, p, footer{
+h1, h2, p, footer {
     text-align: center;
 }
+
 body {
     background-color: rgb(245, 224, 108);
-    background-image: url(https://static.wikia.nocookie.net/spongebob/images/a/af/The_Krusty_Krab_in_TPSS.png/revision/latest/scale-to-width/360?cb=20230531052600); 
+    background-image: url(https://i.pinimg.com/736x/15/50/62/155062093e8eb3ab5f7ddef62c20ea72.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #menu {
     width: 80%;
     background-color: rgb(242, 247, 219);
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    border-radius: 10px; /* Helps make the corners not sharp*/
+    padding: 10px; /* Helps make the corners not sharp*/
+}
+
+h1 {
+    color: rgb(143, 42, 42);
+}
+
+.menu-item {
+    font-weight: bold;
+}
+
+.price {
+    font-style: italic;
 }
