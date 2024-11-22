@@ -9,6 +9,24 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     font-family:sans-serif;
+    padding:20px; /*Makes the menu have more room (Lowered it)*/
+}
+
+h1{
+    color: rgb(143, 42, 42);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+}
+
+h2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+hr {
+    height: 2px;
+    background-color:rgb(208, 216, 185);
+    border-color:aliceblue;
 }
 
 #menu {
@@ -24,19 +42,12 @@ body {
     max-width: 500px;
 }
 
-h1{
-    color: rgb(143, 42, 42);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 35px;
-}
-
-h2 {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 25px;
-}
-
 .item p{
     display: inline-block; /* applys the items so its on the same line */
+    margin-top:5px;
+    margin-bottom:5px;
+    font-size:16px;
+    
 }
 
 /* Style for the item names */
@@ -50,4 +61,21 @@ h2 {
     font-style: italic;
     text-align: right;
     width: 25%
+}
+
+.bottom-line {
+    margin-top: 25px;
+}
+
+/* FOOTER */
+footer {
+    font-size:14px;
+}
+
+a {
+    color:black
+}
+
+a:hover{
+    color:crimson;
 }
