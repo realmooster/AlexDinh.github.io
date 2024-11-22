@@ -16,17 +16,19 @@ h1{
     color: rgb(143, 42, 42);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 35px;
+    margin-top:10px;
+    margin-bottom:20px;
 }
 
 h2 {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
 }
-
+/* Divider */
 hr {
     height: 2px;
-    background-color:rgb(208, 216, 185);
-    border-color:aliceblue;
+    background-color:rgb(96, 99, 90);
+    border-color:rgb(21, 22, 22);
 }
 
 #menu {
@@ -42,6 +44,14 @@ hr {
     max-width: 500px;
 }
 
+img {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:-25px;
+}
+
+/* Items on the menu as a whole */
 .item p{
     display: inline-block; /* applys the items so its on the same line */
     margin-top:5px;
@@ -71,11 +81,19 @@ hr {
 footer {
     font-size:14px;
 }
-
+/* Link color */
 a {
     color:black
 }
-
+/* When hovered over link */
 a:hover{
     color:crimson;
+}
+/* When clicked */
+a:active{
+    color:crimson;
+}
+
+.address{
+    margin-bottom:5px;
 }
