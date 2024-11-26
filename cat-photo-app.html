@@ -45,14 +45,15 @@
         <li>John</li>
       </ol> 
 </section>
-<section>
+
     <hr><!-- A DIVIDER TO THE FORM -->
-    <h2><em>Freaky</em> Form</h2>
+    <section>
+    <h2 class="form-name"><em>Freaky</em> Form</h2>
     <form method="post" action="https://miro.medium.com/v2/resize:fit:448/0*DUe64lmt8n5DNnHD.jpg">
         <fieldset>
-            <legend>What defines you?</legend>
-            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor"> I'm freaky</label>
-            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> I'm not freaky</label>
+            <legend><b>What defines you?</b></legend>
+            <label><input id="freaky" type="radio" name="freaks" value="freaky" class="inline"> I'm freaky</label>
+            <label><input id="notfreaky" type="radio" name="notfreaks" value="notfreaky" class="inline"> I'm not freaky</label>
           </fieldset>
           <!-- <input type="text" name="catphotourl" placeholder="placeholder"> Example of a code to add a placeholder (NOT NECESSARY THOUGH) -->
           <button type="submit">Submit</button> <!--Separates the line so the submit button isn't on the side of the options -->
@@ -83,7 +84,7 @@
             </label>
           </fieldset>
           <label for="terms-and-conditions">
-            <input id="terms-and-conditions" type="checkbox" name="terms" required /> I accept the <a href="https://mypetsa.com/adoption-terms-and-conditions/">terms and conditions</a>
+            <input id="terms-and-conditions" type="checkbox" name="terms" class="inline" required /> I accept the <a href="https://mypetsa.com/adoption-terms-and-conditions/">terms and conditions</a>
           </label>
           <input type="submit" value="Submit">
     </form> 
